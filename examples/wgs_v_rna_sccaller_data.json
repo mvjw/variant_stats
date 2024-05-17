@@ -1,0 +1,33 @@
+{
+    "samples":
+    [
+        {
+            "name":"EPSRC1",
+            "list_WGS":"/<path to>/WGS/EPSRC1dna/cell_list_consensus.txt",
+            "name_WGS":"EPSRC1dna",
+            "list_sc":"/<path to>/EPSRC_splits/EpSRCrna1/cell_list_sccaller.txt",
+            "name_sc":"EPSRC1rna",
+            "vartrix":"/<path to>/vartrix_WGS_sc_counts_consensus/EPSRC1rna_all_WGS_in_sc_counts/",
+            "full_vcf":"/<path to>/WGS/EPSRC1dna/variants_consensus/pseudo_cell/consensus3.vcf.gz"
+        },
+        {
+            "name":"EPSRC2",
+            "list_WGS":"/<path to>/WGS/EPSRC2dna/cell_list_consensus.txt",
+            "name_WGS":"EPSRC2dna",
+            "list_sc":"/<path to>/EPSRC_splits/EpSRCrna2/cell_list_sccaller.txt",
+            "name_sc":"EPSRC2rna",
+            "vartrix":"/<path to>/vartrix_WGS_sc_counts_consensus/EPSRC2rna_all_WGS_in_sc_counts/",
+            "full_vcf":"/<path to>/WGS/EPSRC2dna/variants_consensus/pseudo_cell/consensus3.vcf.gz"
+        },
+        {
+            "name":"EPSRC4",
+            "list_WGS":"/<path to>/WGS/EPSRC4dna/cell_list_consensus.txt",
+            "name_WGS":"EPSRC4dna",
+            "list_sc":"/<path to>/EPSRC_splits/EpSRCrna4/cell_list_sccaller.txt",
+            "name_sc":"EPSRC4rna",
+            "vartrix":"/<path to>/vartrix_WGS_sc_counts_consensus/EPSRC4rna_all_WGS_in_sc_counts/",
+            "full_vcf":"/<path to>/WGS/EPSRC4dna/variants_consensus/pseudo_cell/consensus3.vcf.gz"
+        }
+    ],
+    "working": "/<path to>/sc_benchmark_results/WGS_hapcaller_sc_max_rna_exonic_overlap_all/"
+}
